@@ -1,0 +1,146 @@
+#header{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    margin-bottom: 60px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin-left: 160px;
+    margin-right: 160px;
+    
+}
+.logo{
+    font-size: 22px;
+}
+.menu {
+    display: flex;
+    gap: 3em;
+    font-size: 18px;
+    
+ }
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+ }
+li {
+    list-style: none;
+}
+.main{
+    display:flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 120px;
+}
+.main-text{
+    width:50%;
+}
+.main-image{
+    background-image:url(images/ironman.jpg) ;
+    background-size: cover;
+    width: 50%;
+    
+}
+.main-button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:10px;
+    width:100px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+main-1{
+    text-align: center;
+}
+.main-1-images{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+img{
+    width:150px;
+    height: 200px;
+}
+
+
+.main-2{
+    display:flex;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote{
+    
+    font-size: 30px;
+    justify-content: center;
+    text-align: justify;
+    font-style: italic;
+}
+.cite{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 33px;
+    padding-right: 33px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-3{
+    display: flex;
+}
+.main-3-action{
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 190px;
+    width: 100%;
+    display: flex;
+
+}
+.action-text{
+    width: 75%;
+    color:#F9FAF8;
+    padding-left: 150px;
+}
+.p-action{
+    color:#F9FAF8;
+}
+.button2{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    
+}
+.button-2{
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color:#F9FAF8 ;
+    width:100px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius:10px;
+    height: 40px;
+}
+#footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
